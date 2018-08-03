@@ -151,4 +151,9 @@ code {
     .main-section h2 {
         font-size: 1.7em;
     }
+
+
+    .nav-link:hover {
+        background-color: rgb(54, 54, 54);
+    }
 }
