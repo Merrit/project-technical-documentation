@@ -1,0 +1,113 @@
+body {
+    background-color: rgb(10, 50, 66);
+}
+
+
+#main-div {
+}
+
+
+#navbar {
+    background-color: rgb(54, 54, 54);
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    display: grid;
+    grid-row-gap: 1em;
+    position: fixed;
+    width: 19vw;
+    overflow-x: hidden;
+}
+
+
+#title-button {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(33, 168, 231);
+    border-color: rgb(33, 168, 231);
+    border-radius: 10px;
+    padding: 0.5em;
+    outline: none;
+}
+
+
+#title-button:active {
+    border-style: outset;
+}
+
+
+#navbar a.button {
+    appearance: button;
+    text-decoration: none;
+    background-color: rgb(54, 54, 54);
+    border-style: none;
+    padding: 0.5em;
+    margin-left: 0px;
+    margin-right: 0px;
+    transition-duration: 0.4s;
+    color: silver;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+
+#navbar a.button:hover {
+    background-color: rgb(35, 35, 35);
+}
+
+
+#main-doc {
+    background-color: rgb(54, 54, 54);
+    color: silver;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin-left: 20vw;
+    margin-right: 1vw;
+    margin-bottom: 2vw;
+}
+
+
+.main-section {
+    padding: 1em;
+    font-size: 1.4em;
+}
+
+
+.main-section h2 {
+    font-size: 2.2em;
+}
+
+
+
+@media (max-width: 900px){
+
+    #navbar {
+        text-align: center;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        display: grid;
+        grid-row-gap: 1em;
+        position: relative;
+        width: 97vw;
+        overflow-x: hidden;
+    }
+
+
+    #main-doc {
+        background-color: rgb(54, 54, 54);
+        color: silver;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        margin-top: 1em;
+        margin-left: 0px;
+        width: 100%;
+        }
+    
+    
+    .main-section {
+        padding: 1em;
+        font-size: 1.4em;
+    }
+    
+    
+    .main-section h2 {
+        font-size: 2.2em;
+    }
+}
