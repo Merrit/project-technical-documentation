@@ -129,6 +129,7 @@ code {
         position: relative;
         width: 97vw;
         overflow-x: hidden;
+        max-height: auto;
     }
     
     
@@ -150,6 +151,15 @@ code {
     
     .main-section h2 {
         font-size: 1.7em;
+    }
+
+
+    .nav-link {
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-left: 0px;
+        margin-right: 0px;
+        font-size: 1.3em;
     }
 
 
